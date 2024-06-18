@@ -10,7 +10,7 @@
   - Refusal to answer data includes 462 questions that require a refusal to answer (the data will continue to increase dynamically). The large model's ability to identify risky questions and refuse to answer is assessed based on whether it refuses to respond.
 - This dataset is evaluated on 12 mainstream SOTA Chinese large models, assessing their risk identification and refusal to answer capabilities.
 
-![屏幕快照 2024-06-13 下午4.33.35](/Users/zwj/Desktop/屏幕快照 2024-06-13 下午4.33.35.png)
+![figure1](./images/figure1.png)
 
 ## Evaluation
 
@@ -28,7 +28,7 @@
 
 - 
 
-  ![屏幕快照 2024-06-13 下午4.29.40](/Users/zwj/Desktop/屏幕快照 2024-06-13 下午4.29.40.png)
+  ![figure2](./images/figure2.png)
 
 
 
@@ -36,11 +36,11 @@
 
 - Risk Content Identification
 
-  ![屏幕快照 2024-06-13 下午4.34.21](/Users/zwj/Desktop/屏幕快照 2024-06-13 下午4.34.21.png)
+  ![figure3](./images/figure3.png)
 
 - Refuse to Answer
 
-  ![屏幕快照 2024-06-13 下午4.37.39](/Users/zwj/Desktop/屏幕快照 2024-06-13 下午4.37.39.png)
+  ![figure4](./images/figure4.png)
 
 ## Citation
 
