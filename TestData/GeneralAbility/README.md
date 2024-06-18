@@ -7,7 +7,7 @@ The dataset includes ``678`` question-and-answer pairs spanning ``5`` categories
 A-Eval offers clear empirical and engineering guidelines for choosing the "best" model for real-world applications.
 
 ## Application-driven tasks taxonomy
-![A-Eval tasks taxonomy](TestData/GeneralAbility/images/fig-distribution.png)
+![A-Eval tasks taxonomy](./TestData/GeneralAbility/images/fig-acc-selection.png)
 
 * ``678`` QA pairs
 * ``5`` categories, ``27`` sub-categories
@@ -16,7 +16,7 @@ A-Eval offers clear empirical and engineering guidelines for choosing the "best"
 ## Evaluation Results
 Based on QWen1.5-72B-Chat, we design an automatic evaluation method to evaluate models of 8 varying scales.
 
-![Evaluation Results](TestData/GeneralAbility/images/fig-acc-subcategory-diff.png)
+![Evaluation Results](./TestData/GeneralAbility/images/fig-acc-subcategory-diff.png)
 <p align="center">
 Accuracy of models of various scales on each task and its sub-tasks. (a) Accuracy when T = 60. (b) Accuracy when T = 90.
 </p> 
@@ -24,7 +24,7 @@ Accuracy of models of various scales on each task and its sub-tasks. (a) Accurac
 ## Model Selection
 The best model is defined as the one that achieves the desired accuracy with the smallest size. 
 Using the evaluation results, users can effortlessly identify the best model by drawing horizontal lines on the performance charts. This is an example:
-![Model Selection](TestData/GeneralAbility/images/fig-acc-selection.png)
+![Model Selection](./TestData/GeneralAbility/images/fig-acc-selection.png)
 
 ## Citation
 If you use this benchmark or dataset in your research, please cite our paper.
